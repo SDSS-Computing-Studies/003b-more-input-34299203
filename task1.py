@@ -11,7 +11,7 @@ example:
 Enter your amount: 100
 Enter the rate: 2.5
 Enter the # of days in the month: 30
-You earned $0.2 interest. 
+You earned $0.20 interest. 
 (2 points) 
 """
 import math
@@ -20,5 +20,12 @@ import math
 y = input("Enter your amount")
 x = input("Enter the intrest rate")
 z = input("Enter number of days in the month")
-k = x * y * z
-print(k)
+
+y = float(y)
+x = float(x)
+z = float(z)
+x = x/100
+l = y*x*z/365
+l = round(l,2)
+l = str(l)
+print("your interst rate is $" + l )
