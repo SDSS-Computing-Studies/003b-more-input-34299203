@@ -14,3 +14,11 @@ Enter the # of days in the month: 30
 You earned $0.2 interest. 
 (2 points) 
 """
+import math
+
+
+y = input("Enter your amount")
+x = input("Enter the intrest rate")
+z = input("Enter number of days in the month")
+k = x * y * z
+print(k)
