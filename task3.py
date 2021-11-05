@@ -26,5 +26,5 @@ d = float(d)
 e = float(e)
 
 l = a+b+c+d+e
-f = l/0.12
-print(f + l)
+l =l*0.12
+print(l)
