@@ -20,4 +20,4 @@ x = input("How many Canadian Dollars do you have?")
 x = float(x)
 x = x/1.25
 x = str(x)
-print("you have $" + x + "USD")
+print("That is worth $" + x + "USD")
