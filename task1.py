@@ -19,7 +19,7 @@ import math
 
 y = input("Enter your amount")
 x = input("Enter the rate")
-z = input("Enter # of days in the month")
+z = input("Enter the # of days in the month")
 
 y = float(y)
 x = float(x)
