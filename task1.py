@@ -28,4 +28,4 @@ x = x/100
 l = y*x*z/365
 l = round(l,1)
 l = str(l)
-print("you earned $" + l + " interest.")
+print("You earned $" + l + " interest.")
