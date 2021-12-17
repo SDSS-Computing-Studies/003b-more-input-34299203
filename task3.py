@@ -26,5 +26,6 @@ d = float(d)
 e = float(e)
 
 l = a+b+c+d+e
-l =l*0.12
-print(l)
+k = l*0.12
+l = str(l)
+print("Your subtotal is $" + l + "and your taxes total $" + k + " for a total of l + k")
