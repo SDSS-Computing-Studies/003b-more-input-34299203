@@ -30,6 +30,7 @@ l = a+b+c+d+e
 k = l*0.12
 v = l+k
 l = str(l)
-k = str(k)
 v=str(v)
-print("Your subtotal is $" + l + " and your taxes total $" + k + " for a total of $"+v+"")
+k = str(k)
+print("Your subtotal is $" + l + " and your taxes total $" +k+ " for a total of $"+v+"")
+
