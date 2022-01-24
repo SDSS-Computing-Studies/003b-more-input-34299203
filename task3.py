@@ -16,7 +16,7 @@ Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 import math
 a = input("Enter your first price")
 b = input("Enter your second price")
-c = input("Enter your three price")
+c = input("Enter your third price")
 d = input("Enter your forth price")
 e = input("Enter your fifth price")
 a = float(a)
