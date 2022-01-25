@@ -16,7 +16,7 @@ Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 import math
 a = input("Enter your first price")
 b = input("Enter your second price")
-c = input("Enter your third price")
+c = input("Enter your three price")
 d = input("Enter your forth price")
 e = input("Enter your fifth price")
 a = float(a)
@@ -30,7 +30,7 @@ l = a+b+c+d+e
 k = l*0.12
 v = l+k
 l = str(l)
-v=float(v)
+v = str(v)
 k = str(k)
-round(v)
-print("Your subtotal is $" + l + " and your taxes total $" +k+ " for a total of $"+ "%.2f"%v+"")
+print("Your subtotal is $" + l + " and your taxes total $" +k+ " for a total of $"+v+"")
+
