@@ -11,13 +11,15 @@ Enter the number of days: 12
 There will be 25017087 people after 12 days
 """
 import math
-x = int(input("Enter the population"))
-y = int(input("Enter the rate of growth in percent"))
+x = input("Enter the population")
+y = input("Enter the rate of growth in percent")
+z = input("Enter the number of days")
 
 
+x=str(x)
+y=str(y)
 k = x/y
+k=str(k)
 
 
-
-
-print("There will be " +k+ " people after days")
+print("There will be " + k + " people after" + z + "days")
