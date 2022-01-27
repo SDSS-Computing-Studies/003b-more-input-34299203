@@ -15,10 +15,10 @@ x = input("Enter the population")
 y = input("Enter the rate of growth in percent")
 z = input("Enter the number of days")
 
-
+z=int(z)
 x=int(x)
-y=float(y)
-k = x*y
+y=str(y)
+k = x*y/z
 k = round(k)
 k=str(k)
 
