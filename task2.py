@@ -16,10 +16,11 @@ y = input("Enter the rate of growth in percent")
 z = input("Enter the number of days")
 
 
-x=str(x)
-y=str(y)
-k = x/y
+x=int(x)
+y=float(y)
+k = x*y
+k = round(k)
 k=str(k)
 
 
-print("There will be " + k + " people after" + z + "days")
+print("There will be " + k + " people after " + z + " days")
