@@ -15,12 +15,13 @@ x = input("Enter the population")
 y = input("Enter the rate of growth in percent")
 z = input("Enter the number of days")
 
-z=int(z)
-x=int(x)
-y=str(y)
-k = x*y/z
-k = round(k)
+z=float(z)
+x=float(x)
+y=float(y)
+k = x*y**z
+k=float(k)
 k=str(k)
-
+z=str(z)
+k = round(k,2)
 
 print("There will be " + k + " people after " + z + " days")
